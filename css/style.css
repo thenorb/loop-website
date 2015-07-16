@@ -64,14 +64,9 @@ a:focus {
 
 .navbar-brand {
     font-weight: 700;
-/*    background-image: url(../img/logo.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-*/
 }
-
 .navbar-brand {
-  height: 40px;
+  height: 60px;
   padding: 5px 15px;
   font-size: 18px;
   line-height: 1em;
@@ -80,7 +75,7 @@ a:focus {
 .navbar-brand h1{
 	color: #fff;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 60px;
 }
 
 .navbar-brand:focus {
@@ -97,7 +92,8 @@ a:focus {
 
 
 .navbar-custom ul.nav li a {
-	font-size: 12px;
+	font-size: 16px; /* Navbar right side font size */
+	padding: 25px 25px; 
 	letter-spacing: 1px;
     color: #444;
 	text-transform: uppercase;
@@ -156,8 +152,8 @@ a:focus {
 }
 
 .navbar-toggle {
-    padding: 4px 6px;
-    font-size: 14px;
+    padding: 25px 25px;
+    font-size: 16px;
     color: #fff;
 }
 
@@ -310,7 +306,7 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/bg2.JPG) no-repeat top center;
+	background: url(../img/loop_bg2.png) no-repeat top center;
 	
 	
 }
@@ -337,7 +333,7 @@ hr {
 }
 
 .intro .slogan h2 {
-	color: #FFF;
+	color: #003D99;
 	text-shadow: none;
 	font-size: 60px;
 	line-height: 60px;
@@ -350,11 +346,15 @@ hr {
 	border-color: #000;
 	border-style: none;
 	text-shadow: -1px 0 1px #000;
+	position: relative;
+	top:550px;
 }
 
 .intro .slogan h4 {
-	color: #fff;
+	color: #003D99;
 	text-shadow: -1px 1px 1px #000;
+	position: relative;
+	top: 550px;
 }
 
 
@@ -594,10 +594,10 @@ Parallax
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #909090;
     border-radius: 50%;
     font-size: 40px;
-    color: #fff;
+    color: #909090;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
