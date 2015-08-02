@@ -66,7 +66,7 @@ a:focus {
     font-weight: 700;
 }
 .navbar-brand {
-  height: 60px;
+  height: 40px;
   padding: 5px 15px;
   font-size: 18px;
   line-height: 1em;
@@ -75,7 +75,7 @@ a:focus {
 .navbar-brand h1{
 	color: #fff;
   font-size: 20px;
-  line-height: 60px;
+  line-height: 40px;
 }
 
 .navbar-brand:focus {
@@ -92,8 +92,7 @@ a:focus {
 
 
 .navbar-custom ul.nav li a {
-	font-size: 16px; /* Navbar right side font size */
-	padding: 25px 25px; 
+	font-size: 12px;
 	letter-spacing: 1px;
     color: #444;
 	text-transform: uppercase;
@@ -152,8 +151,8 @@ a:focus {
 }
 
 .navbar-toggle {
-    padding: 25px 25px;
-    font-size: 16px;
+    padding: 4px 6px;
+    font-size: 14px;
     color: #fff;
 }
 
@@ -306,18 +305,15 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/loop_bg2.png) no-repeat top center;
-	
-	
+	background: url(../img/loop_bg.png) no-repeat top center;
 }
 
 #intro.intro {
-	padding:20% 0 0 0;
+	padding:25% 0 0 0; /* original value 20%; push slogan text to the bottom */
 }
 
 .intro .slogan {
 	text-align: center;
-
 }
 
 .intro .page-scroll {
@@ -333,10 +329,10 @@ hr {
 }
 
 .intro .slogan h2 {
-	color: #003D99;
+	color: #000000;
 	text-shadow: none;
-	font-size: 60px;
-	line-height: 60px;
+	font-size: 30px;
+	line-height: 100%;
 	font-weight: 700;
 	font-family: Montserrat, sans-serif;
 	background-color: rgba(0, 0, 0, 0);
@@ -346,15 +342,11 @@ hr {
 	border-color: #000;
 	border-style: none;
 	text-shadow: -1px 0 1px #000;
-	position: relative;
-	top:550px;
 }
 
 .intro .slogan h4 {
-	color: #003D99;
+	color: #000000;
 	text-shadow: -1px 1px 1px #000;
-	position: relative;
-	top: 550px;
 }
 
 
@@ -773,6 +765,15 @@ Parallax
 }
 
 @media (max-width:480px) {
+
+	.intro {
+		width:100%;
+		position:relative;
+		background: url(../img/loop_bg_iphone.png) no-repeat top center;
+	}
+	#intro.intro {
+		padding:100% 0 0 0; /* original value 20%; push slogan text to the bottom */
+	}
 
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
