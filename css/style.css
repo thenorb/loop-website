@@ -759,6 +759,9 @@ Parallax
 		position:relative;
 		background: url(../img/loop_bg_midsize.png) no-repeat top center;
 	}
+	#intro.intro {
+		padding:100% 0 0 0; /* original value 20%; push slogan text to the bottom */
+	}
 	.team.boxed-grey {
 		margin-bottom: 30px;
 	}
