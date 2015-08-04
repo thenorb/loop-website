@@ -753,6 +753,12 @@ Parallax
 }
 @media (max-width:768px) {
 	
+	
+	.intro {
+		width:100%;
+		position:relative;
+		background: url(../img/loop_bg_midsize.png) no-repeat top center;
+	}
 	.team.boxed-grey {
 		margin-bottom: 30px;
 	}
