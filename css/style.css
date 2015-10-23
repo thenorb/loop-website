@@ -305,7 +305,7 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/background/loop_bg_soon.png) no-repeat top center;
+	background: url(../img/background/loop_bg.png) no-repeat top center;
 }
 
 #intro.intro {
@@ -757,7 +757,7 @@ Parallax
 	.intro {
 		width:100%;
 		position:relative;
-		background: url(../img/background/loop_bg_midsize_soon.png) no-repeat top center;
+		background: url(../img/background/loop_bg_midsize.png) no-repeat top center;
 	}
 	#intro.intro {
 		padding:100% 0 0 0; /* original value 20%; push slogan text to the bottom */
@@ -778,7 +778,7 @@ Parallax
 	.intro {
 		width:100%;
 		position:relative;
-		background: url(../img/background/loop_bg_iphone_soon.png) no-repeat top center;
+		background: url(../img/background/loop_bg_iphone.png) no-repeat top center;
 	}
 	#intro.intro {
 		padding:100% 0 0 0; /* original value 20%; push slogan text to the bottom */
