@@ -154,7 +154,7 @@ a:focus {
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 14px;
-    color: #fff; /* unclear.. fff*/
+    color: #666; /* unclear.. fff*/
 }
 
 .navbar-toggle:focus,
