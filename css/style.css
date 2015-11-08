@@ -503,16 +503,20 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 .company-social .social-twitter a{background: #62c6f8;}
 .company-social .social-dribble a{background: #d74980;}
 .company-social .social-deviantart a{background: #8da356;}
-.company-social .social-google a{background: #000;}
+.company-social .social-google a{background: #ff3333;}
 .company-social .social-vimeo a{background: #51a6d3;}
+.company-social .social-yelp a{background: #ff0000;}
+.company-social .social-instagram a{background: #008AB8;}
+
+
 .company-social .social-facebook a:hover{background: #4893ce;}
 .company-social .social-twitter a:hover{background: #82e6ff;}
 .company-social .social-dribble a:hover{background: #f769a0;}
 .company-social .social-deviantart a:hover{background: #adc376;}
-.company-social .social-google a:hover{background: #333;}
+.company-social .social-google a:hover{background: #ff8888;}
 .company-social .social-vimeo a:hover{background: #71c6f3;}
-
-
+.company-social .social-yelp a:hover{background: #ff5555;}
+.company-social .social-instagram a:hover{background: #69D9FF;}
 
 /* ===========================
 --- Footer
