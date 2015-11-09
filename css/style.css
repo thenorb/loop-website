@@ -308,12 +308,15 @@ hr {
 	color: #fff;
 }
 
-
+.brand-heading {
+    font-size: 40px;
+}
 
 /* ===========================
 --- Intro
 ============================ */
 
+/*
 .intro {
 	width:100%;
 	position:relative;
@@ -322,7 +325,7 @@ hr {
 }
 
 #intro.intro {
-	padding:25% 0 0 0; /* original value 20%; push slogan text to the bottom */
+	padding:25% 0 0 0;  original value 20%; push slogan text to the bottom 
 }
 
 .intro .slogan {
@@ -333,9 +336,7 @@ hr {
 	text-align: center;
 }
 
-.brand-heading {
-    font-size: 40px;
-}
+
 
 .intro-text {
     font-size: 18px;
@@ -361,7 +362,7 @@ hr {
 	color: #000000;
 	text-shadow: -1px 1px 1px #000;
 }
-
+*/
 
 
 /* ===========================
@@ -772,14 +773,16 @@ Parallax
 @media (max-width:768px) {
 	
 	
-	.intro {
+	/*.intro {
 		width:100%;
 		position:relative;
 		background: url(../img/background/loop_bg_midsize.png) no-repeat top center;
-	}
+	} */
+	/*
 	#intro.intro {
-		padding:100% 0 0 0; /* original value 20%; push slogan text to the bottom */
+		padding:100% 0 0 0;  original value 20%; push slogan text to the bottom 
 	}
+	*/
 	.team.boxed-grey {
 		margin-bottom: 30px;
 	}
@@ -793,14 +796,18 @@ Parallax
 
 @media (max-width:480px) {
 
+	/*
 	.intro {
 		width:100%;
 		position:relative;
 		background: url(../img/background/loop_bg_iphone.png) no-repeat top center;
 	}
+	*/
+	/*
 	#intro.intro {
-		padding:100% 0 0 0; /* original value 20%; push slogan text to the bottom */
+		padding:100% 0 0 0;  original value 20%; push slogan text to the bottom 
 	}
+	*/
 
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
