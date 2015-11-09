@@ -58,7 +58,7 @@ a:focus {
 
 .navbar {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3); /* ??? */ 
 	
 }
 
@@ -74,7 +74,7 @@ a:focus {
 }
 
 .navbar-brand h1{
-  color: #666; /* #fff LOOP OPTOMETRY text color */
+  color: #666; /* LOOP OPTOMETRY text color */
   font-size: 20px;
   line-height: 40px;
 }
@@ -84,18 +84,18 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.4); /* background color of navbar menu (home, etc) BEFORE scrolling */
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0); /* background color of navbar menu (home, etc) AFTER scrolling */
 }
 
 
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444; /* #444 */
+    color: #666; /* Color of top menu fonts BEFORE scrolling (HOME, etc) */
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -104,7 +104,7 @@ a:focus {
 	-webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #fff; /* Color of top menu items after scrolling down (HOME, etc) */
+	color: #fff; /* Color of top menu fonts AFTER scrolling (HOME, etc) */
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
@@ -138,17 +138,20 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
+/* duplicate?
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
     background-color: rgba(255,255,255,.2);
 }
+*/
+
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.2); /* color of active selected menu item */
 }
 
 .navbar-toggle {
@@ -160,6 +163,13 @@ a:focus {
 .navbar-toggle:focus,
 .navbar-toggle:active {
     outline: 0;
+}
+
+/* copied from other site*/ 
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 0;
+  background-color:#109173;
 }
 
 
@@ -349,6 +359,7 @@ hr {
 	color: #000000;
 	text-shadow: -1px 1px 1px #000;
 }
+
 
 
 /* ===========================
