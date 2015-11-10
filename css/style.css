@@ -40,7 +40,7 @@ p.lead {
 }
 
 a {
-    color: #28c3ab;
+    color: #28c3ab; /* 28c3ab */ 
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -49,7 +49,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #176e61;
+    color: #368cb3; /* #176e61; */
 }
 
 .light {
@@ -138,14 +138,6 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
-/* duplicate?
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.2);
-}
-*/
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
