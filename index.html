@@ -47,6 +47,26 @@
 	fbq('init', '996467270376266');
 	fbq('track', "PageView");
 </script>
+
+
+<!-- Add Pixel Events to the button's click handler -->
+<script type="text/javascript">
+  $('#btn-success').click(function() {
+    fbq('track', 'ApptFormClick', {
+      content_name: 'Appointment form', 
+      content_category: '',
+      content_ids: ['1'],
+      content_type: 'forms',
+      value: 0.00,
+      currency: 'USD' 
+    });  
+  });
+</script>
+
+
+
+
+
 <noscript><img height="1" width="1" style="display:none"
 	src="https://www.facebook.com/tr?id=996467270376266&ev=PageView&noscript=1"
 /></noscript>
