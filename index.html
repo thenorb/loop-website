@@ -218,19 +218,6 @@
                         <p class="subtitle"></p>
                         <div class="fa fa-pencil-square-o fa-4x"></div>
                         <a id="apptform" class="btn btn-success btn-block" type="button" href="http://goo.gl/forms/2sQCukHTfj">Complete now</a>
-	                        <!-- Add Pixel Events to the button's click handler -->
-							<script type="text/javascript">
-							  $('#apptform').click(function() {
-								fbq('track', 'ApptFormClick', {
-								  content_name: 'Appointment form', 
-								  content_category: '',
-								  content_ids: ['1'],
-								  content_type: 'forms',
-								  value: 0.00,
-								  currency: 'USD' 
-								});  
-							  });
-							</script>
                     </div>
                 </div>
 				</div>
@@ -741,6 +728,21 @@
     <script src="js/custom.js"></script>
     <script type="text/javascript" src="js/fliplightbox.min.js"></script>
   
+
+	  <!-- Add Pixel Events to the button's click handler -->
+							<script type="text/javascript">
+							  $('#apptform').click(function() {
+								fbq('track', 'ApptFormClick', {
+								  content_name: 'Appointment form', 
+								  content_category: '',
+								  content_ids: ['1'],
+								  content_type: 'forms',
+								  value: 0.00,
+								  currency: 'USD' 
+								});  
+							  });
+							</script>
+
 
 </body>
 
