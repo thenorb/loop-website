@@ -815,10 +815,22 @@
 		$('#apptform').click(function() {
 			fbq('track', 'ApptFormClick', {
 				content_name: 'Appointment form', 
-				content_category: '',
+				content_category: 'Forms',
 				content_ids: ['1'],
 				content_type: 'forms',
-				value: 0.00,
+				value: 50.00,
+				currency: 'USD' 
+			});  
+		});
+	</script>
+	<script type="text/javascript">
+		$('#lensform').click(function() {
+			fbq('track', 'LensFormClick', {
+				content_name: 'Lens form', 
+				content_category: 'Forms',
+				content_ids: ['2'],
+				content_type: 'forms',
+				value: 20.00,
 				currency: 'USD' 
 			});  
 		});
