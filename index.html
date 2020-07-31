@@ -225,6 +225,7 @@
 			</div>
 		</div>
         
+        
         <div class="row">  
 			<div class="col-sm-3 col-md-3">
 				<div class="wow bounceInUp" data-wow-delay="0.5s">
@@ -234,6 +235,11 @@
                         <p class="subtitle"></p>
                         <div class="fa fa-pencil-square-o fa-4x"></div>
                         <button id="lensform" class="btn btn-success btn-block" type="button" onclick="location.href='https://forms.gle/AFhAc4GbePbikqM57';">Order Online</button>
+						<script type="text/javascript">
+							$('#lensform').click(function() {
+								fbq('track', 'LensFormClick',{ content_name: 'Lens form',content_category: 'Forms',content_ids: ['2'],content_type: 'forms',value: 20.00,currency: 'USD'}); 
+							});  
+						</script>                  
                     </div>
                 </div>
 				</div>
@@ -248,6 +254,11 @@
                         <p class="subtitle"></p>
                         <div class="fa fa-pencil-square-o fa-4x"></div>
                         <button id="apptform" class="btn btn-success btn-block" type="button" onclick="location.href='http://goo.gl/forms/2sQCukHTfj';">Book now</button>
+                        <script type="text/javascript">
+							$('#apptform').click(function() {
+								fbq('track', 'ApptFormClick',{ content_name: 'Appt form',content_category: 'Forms',content_ids: ['1'],content_type: 'forms',value: 50.00,currency: 'USD'}); 
+							});  
+						</script>
                     </div>
                 </div>
 				</div>
@@ -261,6 +272,11 @@
                         <p class="subtitle"></p>
                         <div class="fa fa-globe fa-4x"></div>
                         <button id="mapslink" class="btn btn-info btn-block" type="button" onclick="location.href='https://www.google.com/maps/place/Loop+Optometry/@37.780872,-122.4065497,17z/data=!3m1!4b1!4m2!3m1!1s0x80858081211377cf:0x24aba7c1a2905cfc';">Get Directions</button>
+                        <script type="text/javascript">
+							$('#mapslink').click(function() {
+								fbq('track', 'MapsClick',{ content_name: 'Maps link',content_category: 'Forms',content_ids: ['3'],content_type: 'forms',value: 5.00,currency: 'USD'}); 
+							});  
+						</script>
                      </div>
                 </div>
 				</div>
@@ -290,6 +306,11 @@
                         <p class="subtitle"></p>
                         <div class="fa fa-mobile fa-4x"></div>
                         <button id="calllink" class="btn btn-primary btn-block" type="button" onclick="location.href='tel:415-913-7137';">Call now</button>
+                        <script type="text/javascript">
+							$('#calllink').click(function() {
+								fbq('track', 'CallClick',{ content_name: 'Call link',content_category: 'Forms',content_ids: ['4'],content_type: 'forms',value: 20.00,currency: 'USD'}); 
+							});  
+						</script>
                     </div>
                 </div>
 				</div>
@@ -810,68 +831,7 @@
     <script src="js/custom.js"></script>
     <script type="text/javascript" src="js/fliplightbox.min.js"></script>
   
-	<!-- Add Pixel Events to the button's click handler -->
-	<script type="text/javascript">
-		$('#apptform').click(function() {
-			fbq('track', 'ApptFormClick', {
-				content_name: 'Appointment form', 
-				content_category: 'Forms',
-				content_ids: ['1'],
-				content_type: 'forms',
-				value: 50.00,
-				currency: 'USD' 
-			});  
-		});
-	</script>
-	<script type="text/javascript">
-		$('#lensform').click(function() {
-			fbq('track', 'LensFormClick', {
-				content_name: 'Lens form', 
-				content_category: 'Forms',
-				content_ids: ['2'],
-				content_type: 'forms',
-				value: 20.00,
-				currency: 'USD' 
-			});  
-		});
-	</script>
-	<script type="text/javascript">
-		$('#mapslink').click(function() {
-			fbq('track', 'MapLinkClick', {
-				content_name: 'Map Link', 
-				content_category: '',
-				content_ids: ['1'],
-				content_type: 'info',
-				value: 0.00,
-				currency: 'USD' 
-			});  
-		});
-	</script>
-	<script type="text/javascript">
-		$('#emaillink').click(function() {
-			fbq('track', 'EmailLinkClick', {
-				content_name: 'Email link', 
-				content_category: '',
-				content_ids: ['1'],
-				content_type: 'info',
-				value: 0.00,
-				currency: 'USD' 
-			});  
-		});
-	</script>
-	<script type="text/javascript">
-		$('#calllink').click(function() {
-			fbq('track', 'CallLinkClick', {
-				content_name: 'Call link', 
-				content_category: '',
-				content_ids: ['1'],
-				content_type: 'info',
-				value: 0.00,
-				currency: 'USD' 
-			});  
-		});
-	</script>
-
+	
 
 </body>
 
