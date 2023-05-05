@@ -2,58 +2,38 @@
 <html lang="en">
 
 <head>
-  <!-- Facebook Pixel Code -->
-	<script>
-	!function(f,b,e,v,n,t,s)
-	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-		n.queue=[];t=b.createElement(e);t.async=!0;
-		t.src=v;s=b.getElementsByTagName(e)[0];
-		s.parentNode.insertBefore(t,s)}(window, document,'script',
-		'https://connect.facebook.net/en_US/fbevents.js');
-		fbq('init', '285324449415245');
-		fbq('track', 'PageView');
-		</script>
-		<noscript><img height="1" width="1" style="display:none"
-			src="https://www.facebook.com/tr?id=285324449415245&ev=PageView&noscript=1"
-			/></noscript>
-			<!-- End Facebook Pixel Code -->
-
-		<!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8GDYJGEG0"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-V8GDYJGEG0');
-    </script>
-
-
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- Ensure proper scaling on mobile devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Eyewear collections Loop carries: Andy Wolf, Masunaga, SALT, Mykita, Dita, Toms, Prada, Zero G, Ray-Ban, Nike, Cole Haan. Vision exams offered: comprehensive eye examination, contact lenses fitting and exam, vision therapy, lasik ">
-  <meta name="keywords" content="optometrist, san francisco, sf, optician, near me, eye doctor, eye glasses, optomitrist, vision therapy, lasik" />
+  
+  <!-- Better SEO description -->
+  <meta name="description" content="Loop Optometry in San Francisco, led by Dr May Szeto OD, offers comprehensive eye exams, prescription contact lenses and designer eyewear. Visit us for all your vision care needs.">
+
+  <!-- More specific SEO keywords -->
+  <meta name="keywords" content="Optometrist San Francisco, Eye Exams San Francisco, Prescription Contact Lenses, Designer Eyewear, Vision Care, VSP, Eyemed" />
+
+  <!-- Good for SEO -->
   <meta name="robots" content="index, follow">
+
+  <!-- Authorship can be good for SEO -->
   <meta name="author" content="Loop Optometry">
 
-  <title>Loop Optometry - Dr May Szeto OD - Eye exams, prescription contact lenses, prescription lenses, designer frames, designer sunglasses, designer eyewear, optometrist, optometry, vision care, dry eyes, optical, vsp, vision service plan, vsp signature, vsp choice, vsp advantage, eyemed, eye med  </title>
+  <!-- More concise and relevant title for better SEO -->
+  <title>Loop Optometry - Comprehensive Eye Care in San Francisco</title>
 
-  <base target="_blank"> <!-- open links in a new tab by default -->
+  <!-- If you want all links to open in new tab -->
+  <base target="_blank">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon">
 
-	<!-- COMMENT OUT SECTION
-	<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-	<link rel="stylesheet" href="assets/vendor/font-awesome/font-awesome.min.css">
-<link href="assets/vendor/venobox/venobox.min.css" rel="stylesheet">
-<link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-	-->
-
+  <!-- Preload key assets -->
+  <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css" as="style">
+  <link rel="preload" href="assets/vendor/icofont/icofont.min.css" as="style">
+  <link rel="preload" href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" as="style">
+  <link rel="preload" href="assets/vendor/aos/aos.css" as="style">
+  <link rel="preload" href="assets/css/style.css" as="style">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -64,55 +44,36 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- pixel tracking functions -->
-  <script>
-  function LensFormClick() {
-    fbq('track', 'LensFormClick',{ content_name: 'Lens form',content_category: 'Forms',content_ids: ['2'],content_type: 'product',value: 20.00,currency: 'USD'});
-    return true;
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Loop Optometry",
+    "description": "Loop Optometry in San Francisco offers comprehensive eye exams, prescription contact lenses, and designer eyewear. Led by Dr. May Szeto OD, we are your go-to destination for vision care.",
+    "image": "assets/img/looplogo2.png",
+    "telephone": "(415) 913-7137",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "252 5th St",
+      "addressLocality": "San Francisco",
+      "addressRegion": "CA",
+      "postalCode": "94103"
+    },
+    "openingHours": "Mo,Tu,We,Th,Fr 09:00-16:00"
   }
-  function ApptFormClick() {
-    fbq('track', 'ApptFormClick',{ content_name: 'Appt form',content_category: 'Forms',content_ids: ['1'],content_type: 'product',value: 50.00,currency: 'USD'});
-    return true;
-  }
-  function MapsClick() {
-    fbq('track', 'MapsClick',{ content_name: 'Maps link',content_category: 'Forms',content_ids: ['3'],content_type: 'product',value: 5.00,currency: 'USD'});
-    return true;
-  }
-  function CallClick() {
-    fbq('track', 'CallClick',{ content_name: 'Call link',content_category: 'Forms',content_ids: ['4'],content_type: 'product',value: 20.00,currency: 'USD'});
-    return true;
-  }
-  function EmailClick() {
-    fbq('track', 'EmailClick',{ content_name: 'Email link',content_category: 'Forms',content_ids: ['5'],content_type: 'product',value: 20.00,currency: 'USD'});
-    return true;
-  }
-  function ReviewsClick() {
-    fbq('track', 'ReviewsClick',{ content_name: 'Reviews link',content_category: 'Forms',content_ids: ['6'],content_type: 'product',value: 10.00,currency: 'USD'});
-    return true;
-  }
-  function FramesClick() {
-    fbq('track', 'FramesClick',{ content_name: 'Frames link',content_category: 'Forms',content_ids: ['7'],content_type: 'product',value: 5.00,currency: 'USD'});
-    return true;
-  }
-
-</script>
+  </script>
 
 </head>
 
-<body>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M65GJP"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
 
+<body>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
 
       <div class="logo mr-auto">
         <h4 class="text-dark"><a href="index.html"><span>LOOP OPTOMETRY</span></a></h4>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!--<a href="index.html"><img src="assets/img/looplogo2.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -124,28 +85,9 @@
           <li><a href="#testimonials">Reviews</a></li>
           <li><a href="#portfolio">Collection</a></li>
           <li><a href="#faq">FAQ</a></li>
-<!--
-          <li class="drop-down"><a href="">Quick Links</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li>
-        -->
           <li><a href="#contact">Contact</a></li>
 
-          <li class="get-started"><a href="http://goo.gl/forms/2sQCukHTfj" onclick="ApptFormClick()">Book Now</a></li>
+          <li class="get-started"><a href="http://goo.gl/forms/2sQCukHTfj">Book Now</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -161,12 +103,11 @@
           <h1 data-aos="fade-up">Your Eye Care Destination</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">Curated frames, friendly service</h2>
           <div data-aos="fade-up" data-aos-delay="800">
-            <a href="http://goo.gl/forms/2sQCukHTfj" onclick="ApptFormClick()" class="btn-get-started scrollto">Book Now</a>
+            <a href="http://goo.gl/forms/2sQCukHTfj" class="btn-get-started scrollto">Book Now</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
           <img src="assets/img/loop/looplogo1.jpg" class="img-fluid animated" alt="">
-          <!--<img src="assets/img/loop/bg7.png" class="img-fluid animated" alt="">-->
         </div>
       </div>
     </div>
@@ -230,7 +171,7 @@
                 <li>Let us know what you need and your communication preferences.</li>
               </ul>
               <div class="btn-wrap">
-                <a href="mailto:frontdesk@looptometry.com" onclick="EmailClick()" class="btn-buy">Email us</a>
+                <a href="mailto:frontdesk@looptometry.com" class="btn-buy">Email us</a>
               </div>
             </div>
           </div>
@@ -242,7 +183,7 @@
                 <li>Provide your vision insurance details for maximum efficiency.</li>
               </ul>
               <div class="btn-wrap">
-                <a href="http://goo.gl/forms/2sQCukHTfj" onclick="ApptFormClick()" class="btn-buy">Book Now</a>
+                <a href="http://goo.gl/forms/2sQCukHTfj" class="btn-buy">Book Now</a>
               </div>
             </div>
           </div>
@@ -254,7 +195,7 @@
                 <li>Call us during business hours.</li>
               </ul>
               <div class="btn-wrap">
-                <a href="tel:415-913-7137" onclick="CallClick()" class="btn-buy">Call Now</a>
+                <a href="tel:415-913-7137" class="btn-buy">Call Now</a>
               </div>
             </div>
           </div>
@@ -292,7 +233,7 @@
             <p>
               We are proud of our friendly and helpful culture. Come by any time to say hello and you might just meet the Loopmeister.
             </p>
-            <a href="mailto:frontdesk@looptometry.com" onclick="EmailClick()" class="btn-learn-more">Email Us</a>
+            <a href="mailto:frontdesk@looptometry.com" class="btn-learn-more">Email Us</a>
           </div>
         </div>
 
@@ -305,28 +246,12 @@
       <div class="container">
 
         <div class="row">
-					<!--
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="assets/img/team/jamie.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="mailto:frontdesk@looptometry.com" onclick="EmailClick()"><i class="icofont-email"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Jamie D.</h4>
-                <span>Optical Specialist</span>
-              </div>
-            </div>
-          </div> -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+					<div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
                 <img src="assets/img/team/darin.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="mailto:frontdesk@looptometry.com" onclick="EmailClick()"><i class="icofont-email"></i></a>
+                  <a href="mailto:frontdesk@looptometry.com"><i class="icofont-email"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -341,7 +266,7 @@
               <div class="member-img">
                 <img src="assets/img/team/may.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href="mailto:info@looptometry.com" onclick="EmailClick()"><i class="icofont-email"></i></a>
+                  <a href="mailto:info@looptometry.com"><i class="icofont-email"></i></a>
                   <a href="https://www.facebook.com/looptometry"><i class="icofont-facebook"></i></a>
                   <a href="https://www.instagram.com/looptometry/"><i class="icofont-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/may-szeto-030a92bb/"><i class="icofont-linkedin"></i></a>
@@ -406,7 +331,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Services</h2>
-          <p><strong>NEW</strong>: Order contacts online via <a href="https://forms.gle/AFhAc4GbePbikqM57" onclick="LensFormClick()">online form</a> or <a href="mailto:frontdesk@looptometry.com" onclick="EmailClick()">email</a>.</p>
+          <p><strong>NEW</strong>: Order contacts online via <a href="https://forms.gle/AFhAc4GbePbikqM57">online form</a> or <a href="mailto:frontdesk@looptometry.com">email</a>.</p>
         </div>
 
         <div class="row">
@@ -422,7 +347,7 @@
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="icofont-adjust"></i></div>
               <h4 class="title"><a href="">Contact Lenses</a></h4>
-              <p class="description">Order by <a href="mailto:frontdesk@looptometry.com" onclick="EmailClick()">email</a> or <a href="https://forms.gle/AFhAc4GbePbikqM57" onclick="LensFormClick()">online form</a></p>
+              <p class="description">Order by <a href="mailto:frontdesk@looptometry.com">email</a> or <a href="https://forms.gle/AFhAc4GbePbikqM57">online form</a></p>
             </div>
           </div>
 
@@ -430,7 +355,7 @@
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="icofont-woman-in-glasses"></i></div>
               <h4 class="title"><a href="">Glasses</a></h4>
-              <p class="description"><a href="https://g.page/looptometry?share" onclick="MapsClick()">Visit</a> us to view our Eyeglasses & Sunglasses</p>
+              <p class="description"><a href="https://g.page/looptometry?share">Visit</a> us to view our Eyeglasses & Sunglasses</p>
             </div>
           </div>
 
@@ -454,7 +379,7 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>Reviews</h2>
-          <p>You can find our reviews on <a href="https://www.yelp.com/biz/loop-optometry-san-francisco">Yelp</a>, <a href="https://www.facebook.com/pg/looptometry/reviews/?ref=page_internal">Facebook</a> and <a href="https://g.page/looptometry?share" onclick="MapsClick()">Google</a></p>
+          <p>You can find our reviews on <a href="https://www.yelp.com/biz/loop-optometry-san-francisco">Yelp</a>, <a href="https://www.facebook.com/pg/looptometry/reviews/?ref=page_internal">Facebook</a> and <a href="https://g.page/looptometry?share">Google</a></p>
         </div>
 
         <div class="owl-carousel testimonials-carousel" data-aos="fade-up" data-aos-delay="200">
@@ -577,7 +502,7 @@
                 <h4>Masunaga</h4>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="http://www.masunaga1905.com" onclick="FramesClick()" title="More Details"><i class="icofont-link"></i></a>
+                  <a href="http://www.masunaga1905.com" title="More Details"><i class="icofont-link"></i></a>
                 </div>
               </div>
             </div>
@@ -590,7 +515,7 @@
                 <h4>Andy Wolf</h4>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="http://www.andy-wolf.com/en/" onclick="FramesClick()" title="More Details"><i class="icofont-link"></i></a>
+                  <a href="http://www.andy-wolf.com/en/" title="More Details"><i class="icofont-link"></i></a>
                 </div>
               </div>
             </div>
@@ -603,7 +528,7 @@
                 <h4>Zero G</h4>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="http://www.zerogeyewear.com" onclick="FramesClick()" title="More Details"><i class="icofont-link"></i></a>
+                  <a href="http://www.zerogeyewear.com" title="More Details"><i class="icofont-link"></i></a>
                 </div>
               </div>
             </div>
@@ -616,7 +541,7 @@
                 <h4>Mykita</h4>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="https://mykita.com/en" onclick="FramesClick()" title="More Details"><i class="icofont-link"></i></a>
+                  <a href="https://mykita.com/en" title="More Details"><i class="icofont-link"></i></a>
                 </div>
               </div>
             </div>
@@ -629,7 +554,7 @@
                 <h4>Salt</h4>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="https://www.saltoptics.com" onclick="FramesClick()" title="More Details"><i class="icofont-link"></i></a>
+                  <a href="https://www.saltoptics.com" title="More Details"><i class="icofont-link"></i></a>
                 </div>
               </div>
             </div>
@@ -642,7 +567,7 @@
                 <h4>Garrett Leight</h4>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="https://www.garrettleight.com/" onclick="FramesClick()" title="More Details"><i class="icofont-link"></i></a>
+                  <a href="https://www.garrettleight.com/" title="More Details"><i class="icofont-link"></i></a>
                 </div>
               </div>
             </div>
@@ -655,7 +580,7 @@
                 <h4>Prada</h4>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="http://www.prada.com/en/eyewear.html" onclick="FramesClick()" title="More Details"><i class="icofont-link"></i></a>
+                  <a href="http://www.prada.com/en/eyewear.html" title="More Details"><i class="icofont-link"></i></a>
                 </div>
               </div>
             </div>
@@ -668,7 +593,7 @@
                 <h4>Ray-Ban</h4>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="http://www.ray-ban.com/usa/" onclick="FramesClick()" title="More Details"><i class="icofont-link"></i></a>
+                  <a href="http://www.ray-ban.com/usa/" title="More Details"><i class="icofont-link"></i></a>
                 </div>
               </div>
             </div>
@@ -681,7 +606,7 @@
                 <h4>Toms</h4>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="http://www.toms.com/eyeglass-frames" onclick="FramesClick()" title="More Details"><i class="icofont-link"></i></a>
+                  <a href="http://www.toms.com/eyeglass-frames" title="More Details"><i class="icofont-link"></i></a>
                 </div>
               </div>
             </div>
@@ -694,7 +619,7 @@
                 <h4>Cole Haan</h4>
                 <p></p>
                 <div class="portfolio-links">
-                  <a href="http://www.colehaan.com/womens-accessories-sunglasses" onclick="FramesClick()" title="More Details"><i class="icofont-link"></i></a>
+                  <a href="http://www.colehaan.com/womens-accessories-sunglasses" title="More Details"><i class="icofont-link"></i></a>
                 </div>
               </div>
             </div>
@@ -781,7 +706,7 @@
           </div>
           <div class="col-lg-7">
             <p>
-              Email us anytime at <a href="mailto:frontdesk@looptometry.com" onclick="EmailClick()">frontdesk@looptometry.com</a> or call us at <a href="tel:415-913-7137" onclick="CallClick()">(415) 913-7137</a> during business hours.
+              Email us anytime at <a href="mailto:frontdesk@looptometry.com">frontdesk@looptometry.com</a> or call us at <a href="tel:415-913-7137">(415) 913-7137</a> during business hours.
             </p>
           </div>
         </div><!-- End F.A.Q Item-->
@@ -809,30 +734,30 @@
                 </div>
                 <div>
                   <i class="icofont-map-pins"></i>
-                  <p><a href="https://g.page/looptometry?share" onclick="MapsClick()">252 5th St</a>
+                  <p><a href="https://g.page/looptometry?share" >252 5th St</a>
                     <br>San Francisco, CA 94103</p>
                 </div>
 
                 <div>
                   <i class="icofont-email"></i>
-                  <p><a href="mailto:info@looptometry.com" onclick="EmailClick()">info@looptometry.com</a></p>
+                  <p><a href="mailto:info@looptometry.com" >info@looptometry.com</a></p>
                 </div>
 
                 <div>
                   <i class="icofont-phone"></i>
-                  <p><a href="tel:415-913-7137" onclick="CallClick()">(415) 913-7137</a></p>
+                  <p><a href="tel:415-913-7137" >(415) 913-7137</a></p>
                 </div>
 
                 <div>
                   <i class="icofont-fax"></i>
-                  <p><a href="fax:415-913-7137" onclick="CallClick()">(415) 913-7154</a></p>
+                  <p><a href="fax:415-913-7137" >(415) 913-7154</a></p>
                 </div>
 
               </div>
               <div class="social-links">
-                <a href="https://www.facebook.com/looptometry" onclick="ReviewsClick()" class="facebook"><i class="icofont-facebook"></i></a>
-                <a href="https://www.instagram.com/looptometry/" onclick="ReviewsClick()" class="instagram"><i class="icofont-instagram"></i></a>
-                <a href="https://www.yelp.com/biz/loop-optometry-san-francisco" onclick="ReviewsClick()" class="yelp"><i class="icofont-yelp"></i></a>
+                <a href="https://www.facebook.com/looptometry" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/looptometry/" class="instagram"><i class="icofont-instagram"></i></a>
+                <a href="https://www.yelp.com/biz/loop-optometry-san-francisco" class="yelp"><i class="icofont-yelp"></i></a>
               </div>
             </div>
           </div>
@@ -841,11 +766,6 @@
           <div class="col-lg-6 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
             <img src="assets/img/loop/bg7.jpg" class="img-fluid animated" alt="">
           </div>
-<!--
-          <div class="col-lg-4 col-md-4 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/looplogo1.png" class="img-fluid animated" alt="">
-          </div>
--->
         </div>
 
       </div>
@@ -865,15 +785,6 @@
             Based on a <a href="https://bootstrapmade.com/">BootstrapMade </a>template
           </div>
         </div>
-        <!-- <div class="col-lg-6">
-          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-            <a href="#intro" class="scrollto">Home</a>
-            <a href="#about" class="scrollto">About</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
-          </nav>
-        </div>
-      -->
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -895,13 +806,8 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-	<!-- COMMENT OUT <section>
-	<script src="assets/vendor/venobox/venobox.min.js"></script>
-	-->
 
 	</section>
-
-
 
 </body>
 
