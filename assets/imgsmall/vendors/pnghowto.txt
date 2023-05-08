@@ -1,0 +1,6 @@
+How to create fitting transparent PNGs
+
+1. Download logos from google image search
+2. Position image on a powerpoint slide
+3. Export slide as PNG
+4. Use https://onlinepngtools.com/create-transparent-png to make them transparent
