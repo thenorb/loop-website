@@ -1584,7 +1584,7 @@ section {
 --------------------------------------------------------------*/
 
 #jarallax-section-1 {
-  background-image: url('../img/loop/loopfront2.jpg');
+  background-image: url('../img/loop/bg1.jpg');
 }
 
 #jarallax-section-2 {
@@ -1597,15 +1597,15 @@ section {
 
 @media (max-width: 640px) {
   #jarallax-section-1 {
-    background-image: url('../imgsmall/loop/loopfront2.jpg');
+    background-image: url('../imgsmall/loop/bg1.webp');
   }
 
   #jarallax-section-2 {
-    background-image: url('../imgsmall/loop/bg2.jpg');
+    background-image: url('../imgsmall/loop/bg2.webp');
   }
 
   #jarallax-section-3 {
-    background-image: url('../imgsmall/loop/bg3.jpg');
+    background-image: url('../imgsmall/loop/bg3.webp');
   }
 }
 
