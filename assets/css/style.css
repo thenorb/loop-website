@@ -1577,3 +1577,37 @@ section {
 #footer .footer-links a:hover {
   color: #3e4772;
 }
+
+
+/*--------------------------------------------------------------
+# Jarallax sections
+--------------------------------------------------------------*/
+
+#jarallax-section-1 {
+  background-image: url('../img/loop/loopfront2.jpg');
+}
+
+#jarallax-section-2 {
+  background-image: url('../img/loop/bg2.jpg');
+}
+
+#jarallax-section-3 {
+  background-image: url('../img/loop/bg3.jpg');
+}
+
+@media (max-width: 640px) {
+  #jarallax-section-1 {
+    background-image: url('../imgsmall/loop/loopfront2.jpg');
+  }
+
+  #jarallax-section-2 {
+    background-image: url('../imgsmall/loop/bg2.jpg');
+  }
+
+  #jarallax-section-3 {
+    background-image: url('../imgsmall/loop/bg3.jpg');
+  }
+}
+
+
+
